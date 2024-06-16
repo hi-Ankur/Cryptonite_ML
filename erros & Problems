@@ -1,0 +1,31 @@
+        plt.rcParams['figure.figsize'] = [10,5]
+        plt.rcParams['font.size'] = 14
+        plt.rcParams['font.weight'] = 'bold'
+        plt.style.use('seaborn-whitegrid')
+
+        #facing errors with these commands, ensured the libraries are imported.
+
+        Rows: 20640     Training examples
+        Columns: 10     Independent Variables
+
+        IDEA: There are multiple independent variable, so we need to fit Multiple linear regression.
+              Writing the Multiple regression equations in matrix form makes sense.
+
+        Displaying correlation graph. Error: could not convert string to float resolved by removing those values in another df.
+
+--->    Don't know what is Label encoding and Box-Cox Transformation
+
+        Able to implement train_test_split, still don't know much about why the parameter are what they are, I just followed
+        the commands from notebook!
+
+        Following the kaggle notebook, looked up np.c_ and np.ones_  and their use. But the data manipulation will take getting used to.
+
+        #So in MODEL BUILDING  we use our Matrix Equation.
+
+        #This one is a little confusing. Right now just copying the code, will do it on paper.
+
+        #Now you have everything for you Linear Regression Model!
+
+        #So for 8 independent variables we have 8 parameters! Nice job!
+
+
